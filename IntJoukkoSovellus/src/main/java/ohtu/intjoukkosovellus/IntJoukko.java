@@ -117,7 +117,6 @@ public class IntJoukko {
         }
         return taulu;
     }
-   
 
     public static IntJoukko yhdiste(IntJoukko a, IntJoukko b) {
         IntJoukko x = new IntJoukko();
@@ -144,7 +143,6 @@ public class IntJoukko {
             }
         }
         return y;
-
     }
     
     public static IntJoukko erotus ( IntJoukko a, IntJoukko b) {
@@ -157,8 +155,6 @@ public class IntJoukko {
         for (int i = 0; i < bTaulu.length; i++) {
             z.poista(i);
         }
- 
         return z;
-    }
-        
+    } 
 }
